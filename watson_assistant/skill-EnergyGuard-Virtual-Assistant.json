@@ -1,0 +1,1829 @@
+{
+  "name": "EnergyGuard Virtual Assistant",
+  "intents": [
+    {
+      "intent": "General_About_You",
+      "examples": [
+        {
+          "text": "How do you function?"
+        },
+        {
+          "text": "How can I configure you?"
+        },
+        {
+          "text": "Do you know who you are?"
+        },
+        {
+          "text": "Let us talk about you"
+        },
+        {
+          "text": "Do you have a name?"
+        },
+        {
+          "text": "Introduce your self"
+        },
+        {
+          "text": "I want to set up the chat bot for my shop"
+        },
+        {
+          "text": "About you"
+        },
+        {
+          "text": "Describe your self"
+        },
+        {
+          "text": "Can I use another language?"
+        },
+        {
+          "text": "Why are you here?"
+        },
+        {
+          "text": "Tell me about your life"
+        },
+        {
+          "text": "Tell me something about yourself"
+        },
+        {
+          "text": "What languages do you speak?"
+        },
+        {
+          "text": "What should I know about you?"
+        },
+        {
+          "text": "What's your name?"
+        },
+        {
+          "text": "Where are you from?"
+        },
+        {
+          "text": "Where were you born?"
+        },
+        {
+          "text": "Who are you?"
+        },
+        {
+          "text": "How old are you?"
+        }
+      ],
+      "description": "Request generic personal attributes."
+    },
+    {
+      "intent": "General_Positive_Feedback",
+      "examples": [
+        {
+          "text": "This is so cool"
+        },
+        {
+          "text": "You've been so helpful :)"
+        },
+        {
+          "text": "You're a genius!"
+        },
+        {
+          "text": "You the man"
+        },
+        {
+          "text": "You gave me exactly what I need!"
+        },
+        {
+          "text": "You are wonderful"
+        },
+        {
+          "text": "You are the best"
+        },
+        {
+          "text": "You are great"
+        },
+        {
+          "text": "You are awesome"
+        },
+        {
+          "text": "This is great"
+        },
+        {
+          "text": "This is good"
+        },
+        {
+          "text": "Thank you"
+        },
+        {
+          "text": "Ok thank you"
+        },
+        {
+          "text": "Love your work"
+        },
+        {
+          "text": "I'm looking forward to working with you again! :)"
+        },
+        {
+          "text": "I like what you did there! :)"
+        },
+        {
+          "text": "How cool is this?"
+        },
+        {
+          "text": "Can't believe you are that good"
+        },
+        {
+          "text": "Brilliant!"
+        }
+      ],
+      "description": "Express positive sentiment or gratitude."
+    },
+    {
+      "intent": "General_Security_Assurance",
+      "examples": [
+        {
+          "text": "What safety measures are used to ensure that chat is secure?"
+        },
+        {
+          "text": "Why would I trust this chat?"
+        },
+        {
+          "text": "Will my conversation remain secured?"
+        },
+        {
+          "text": "How do I know this chat is not a scam?"
+        },
+        {
+          "text": "Are you safe on hackers?"
+        },
+        {
+          "text": "Are you safe?"
+        },
+        {
+          "text": "Can I be sure that my stored card details are held securely?"
+        },
+        {
+          "text": "Conversation secure?"
+        },
+        {
+          "text": "Customer info secured?"
+        },
+        {
+          "text": "Do you have protection against hacks?"
+        },
+        {
+          "text": "How do I know if my card info is kept safe?"
+        },
+        {
+          "text": "What makes this chat trustworthy?"
+        },
+        {
+          "text": "What guards do you have in place to protect your customer's data?"
+        },
+        {
+          "text": "Secure conversation?"
+        },
+        {
+          "text": "Protection hacks?"
+        },
+        {
+          "text": "Precautions hackers?"
+        },
+        {
+          "text": "Is this conversation secure?"
+        },
+        {
+          "text": "Is this an official chat?"
+        },
+        {
+          "text": "Is this a trusted chat site?"
+        },
+        {
+          "text": "Is there a reason to distrust this chat?"
+        },
+        {
+          "text": "Is my payment information secure?"
+        },
+        {
+          "text": "Is my card info secure?"
+        },
+        {
+          "text": "In what way can I tell if my plastic is safe?"
+        },
+        {
+          "text": "I'd like proof of a secure chat"
+        },
+        {
+          "text": "How safe is my data?"
+        },
+        {
+          "text": "How is my credit card info secured?"
+        }
+      ],
+      "description": "Express concerns about the security of the bot."
+    },
+    {
+      "intent": "General_Greetings",
+      "examples": [
+        {
+          "text": "Hey how are you doing"
+        },
+        {
+          "text": "You there"
+        },
+        {
+          "text": "Who is this?"
+        },
+        {
+          "text": "What's up?"
+        },
+        {
+          "text": "What's new?"
+        },
+        {
+          "text": "Ok take me back"
+        },
+        {
+          "text": "Looking good eve"
+        },
+        {
+          "text": "How r u?"
+        },
+        {
+          "text": "How is it going?"
+        },
+        {
+          "text": "How have you been?"
+        },
+        {
+          "text": "How are you today?"
+        },
+        {
+          "text": "How are things going?"
+        },
+        {
+          "text": "Hi there"
+        },
+        {
+          "text": "Hi advisor"
+        },
+        {
+          "text": "Hey you"
+        },
+        {
+          "text": "Good day"
+        },
+        {
+          "text": "Good evening"
+        },
+        {
+          "text": "Good morning"
+        },
+        {
+          "text": "Good to see you"
+        },
+        {
+          "text": "Greetings"
+        },
+        {
+          "text": "Have you been well?"
+        },
+        {
+          "text": "Hello Agent"
+        },
+        {
+          "text": "Hello I am looking for some help here"
+        },
+        {
+          "text": "Hello"
+        },
+        {
+          "text": "Hey there all"
+        },
+        {
+          "text": "Hey there"
+        },
+        {
+          "text": "Hey twin"
+        }
+      ],
+      "description": "Greet the bot."
+    },
+    {
+      "intent": "Answer_Yes",
+      "examples": [
+        {
+          "text": "Okie dokie"
+        },
+        {
+          "text": "products"
+        },
+        {
+          "text": "Yes"
+        },
+        {
+          "text": "Yeah"
+        },
+        {
+          "text": "Yep"
+        },
+        {
+          "text": "Yip"
+        },
+        {
+          "text": "Yepper"
+        },
+        {
+          "text": "Uh-huh"
+        },
+        {
+          "text": "Uh huh"
+        },
+        {
+          "text": "Sure"
+        },
+        {
+          "text": "Ok"
+        },
+        {
+          "text": "Alright"
+        },
+        {
+          "text": "Okay"
+        },
+        {
+          "text": "Of course"
+        },
+        {
+          "text": "Alrighty then"
+        },
+        {
+          "text": "Oki doki"
+        }
+      ],
+      "description": "User input is yes."
+    },
+    {
+      "intent": "General_Agent_Capabilities",
+      "examples": [
+        {
+          "text": "I'd like to know what type of questions you can answer for me."
+        },
+        {
+          "text": "Can you please give me a list of the types of things you can help me with?"
+        },
+        {
+          "text": "Can you tell me what services you are able to help me with?"
+        },
+        {
+          "text": "Do you have a list of things I can talk to you about?"
+        },
+        {
+          "text": "Help now"
+        },
+        {
+          "text": "Hi, what do you do?"
+        },
+        {
+          "text": "How can I use you?"
+        },
+        {
+          "text": "How can you help me?"
+        },
+        {
+          "text": "How can you solve my problems?"
+        },
+        {
+          "text": "How do I use you?"
+        },
+        {
+          "text": "I do not know what to ask"
+        },
+        {
+          "text": "Is there anything you can help me with?"
+        },
+        {
+          "text": "Tell me about what kind of things you do?"
+        },
+        {
+          "text": "Tell me something"
+        },
+        {
+          "text": "What are my options that you can help with?"
+        },
+        {
+          "text": "What are my options?"
+        },
+        {
+          "text": "What are you able to deal with?"
+        },
+        {
+          "text": "What are you able to understand?"
+        },
+        {
+          "text": "What are you capable of?"
+        },
+        {
+          "text": "What are you good at?"
+        },
+        {
+          "text": "What are you used for?"
+        },
+        {
+          "text": "What are your skills?"
+        },
+        {
+          "text": "What can I ask you to do?"
+        },
+        {
+          "text": "What do you do?"
+        },
+        {
+          "text": "What do you handle?"
+        },
+        {
+          "text": "What else can you help me with?"
+        },
+        {
+          "text": "What features are in here?"
+        },
+        {
+          "text": "What is this 4?"
+        },
+        {
+          "text": "What kinds of things can you do?"
+        },
+        {
+          "text": "Where can I find the frequently asked questions?"
+        }
+      ],
+      "description": "Request capabilities of the bot."
+    },
+    {
+      "intent": "EnergyGuard_Billing",
+      "examples": [
+        {
+          "text": "Accounting"
+        },
+        {
+          "text": "Billing"
+        },
+        {
+          "text": "Help with my payment"
+        },
+        {
+          "text": "Help with my bill"
+        },
+        {
+          "text": "About my bill"
+        },
+        {
+          "text": "Billing information"
+        },
+        {
+          "text": "Billing info"
+        },
+        {
+          "text": "Payment info"
+        },
+        {
+          "text": "Payment information"
+        },
+        {
+          "text": "Due date"
+        },
+        {
+          "text": "Invoice"
+        },
+        {
+          "text": "My bill"
+        },
+        {
+          "text": "Payment"
+        },
+        {
+          "text": "My account"
+        }
+      ],
+      "description": "Get EnergyGuard billing information."
+    },
+    {
+      "intent": "EnergyGuard_Features",
+      "examples": [
+        {
+          "text": "Tell me your features"
+        },
+        {
+          "text": "What features are there"
+        },
+        {
+          "text": "How does it work"
+        },
+        {
+          "text": "What can your product do"
+        },
+        {
+          "text": "What does your product do"
+        },
+        {
+          "text": "Product features"
+        },
+        {
+          "text": "Tell me about your features"
+        },
+        {
+          "text": "Features"
+        }
+      ],
+      "description": "Discover the features available for EnergyGuard."
+    },
+    {
+      "intent": "EnergyGuard_TechSupport",
+      "examples": [
+        {
+          "text": "Tech support"
+        },
+        {
+          "text": "Technical support"
+        },
+        {
+          "text": "Technician"
+        },
+        {
+          "text": "Support technician"
+        },
+        {
+          "text": "Need technical support"
+        },
+        {
+          "text": "How do I"
+        },
+        {
+          "text": "Technical help"
+        },
+        {
+          "text": "Support"
+        }
+      ],
+      "description": "Get Technical Support for EnergyGuard products and services."
+    },
+    {
+      "intent": "General_Ending",
+      "examples": [
+        {
+          "text": "Finished now, good bye"
+        },
+        {
+          "text": "Ending this session"
+        },
+        {
+          "text": "End trial"
+        },
+        {
+          "text": "Cya later"
+        },
+        {
+          "text": "Catch you later"
+        },
+        {
+          "text": "Bye now"
+        },
+        {
+          "text": "Bye bye"
+        },
+        {
+          "text": "I have got to go"
+        },
+        {
+          "text": "That's everything"
+        },
+        {
+          "text": "That is all"
+        },
+        {
+          "text": "Thanks very much, bye!"
+        },
+        {
+          "text": "Thanks, bye!"
+        },
+        {
+          "text": "Thank you for your time"
+        },
+        {
+          "text": "Stop talking to me"
+        },
+        {
+          "text": "Stop doing this"
+        },
+        {
+          "text": "Shut up"
+        },
+        {
+          "text": "See you"
+        },
+        {
+          "text": "See you later"
+        },
+        {
+          "text": "Ok goodbye"
+        },
+        {
+          "text": "It was nice chatting with you"
+        },
+        {
+          "text": "I'm leaving now"
+        },
+        {
+          "text": "Im good thank you"
+        },
+        {
+          "text": "Im done"
+        },
+        {
+          "text": "I'm done"
+        },
+        {
+          "text": "I want to quit"
+        },
+        {
+          "text": "Time to go"
+        },
+        {
+          "text": "I d like to stop doing this"
+        },
+        {
+          "text": "I am out of here"
+        },
+        {
+          "text": "I am leaving"
+        },
+        {
+          "text": "Hey bot go away"
+        },
+        {
+          "text": "Have a nice day?"
+        },
+        {
+          "text": "Goodbye"
+        },
+        {
+          "text": "Good. bye."
+        },
+        {
+          "text": "Going now"
+        },
+        {
+          "text": "Go off"
+        },
+        {
+          "text": "Go away"
+        },
+        {
+          "text": "Get lost"
+        }
+      ],
+      "description": "End the conversation."
+    },
+    {
+      "intent": "General_Connect_to_Agent",
+      "examples": [
+        {
+          "text": "Yes, take me to a real person"
+        },
+        {
+          "text": "Where is the closest agent?"
+        },
+        {
+          "text": "Send me to an agent"
+        },
+        {
+          "text": "Put me through to someone"
+        },
+        {
+          "text": "Pls connect"
+        },
+        {
+          "text": "Please let me talk to a human being."
+        },
+        {
+          "text": "Please connect me to a live agent"
+        },
+        {
+          "text": "Please assist me to get to an agent"
+        },
+        {
+          "text": "Operator please"
+        },
+        {
+          "text": "Need help from human"
+        },
+        {
+          "text": "Is there anyone there I can actually talk to for real?"
+        },
+        {
+          "text": "I would like to speak to someone"
+        },
+        {
+          "text": "I would like to speak to a human"
+        },
+        {
+          "text": "I want to talk to a person"
+        },
+        {
+          "text": "I want an agent to help me"
+        },
+        {
+          "text": "I want agent"
+        },
+        {
+          "text": "I want a manager"
+        },
+        {
+          "text": "I need to speak to a representative. How would I go about doing so?"
+        },
+        {
+          "text": "I don't want to talk to you"
+        },
+        {
+          "text": "I don't want to talk to a bot."
+        },
+        {
+          "text": "How can I skip the recorded menu and go straight to a live person?"
+        },
+        {
+          "text": "Hi can you transfer me"
+        },
+        {
+          "text": "Do not want a robot?"
+        },
+        {
+          "text": "Customer service representative please."
+        },
+        {
+          "text": "Could you please transfer me to your master?"
+        },
+        {
+          "text": "Contact person"
+        },
+        {
+          "text": "Connect me to a live operator please."
+        },
+        {
+          "text": "Can you connect me with a real person?"
+        },
+        {
+          "text": "Can you assist me to connect to an agent?"
+        },
+        {
+          "text": "Can I talk to someone?"
+        },
+        {
+          "text": "Can I speak with somebody?"
+        },
+        {
+          "text": "Can I speak to an advisor?"
+        },
+        {
+          "text": "Can I speak to a live person?"
+        },
+        {
+          "text": "Can I speak to a human please?"
+        },
+        {
+          "text": "Can I connect to an agent?"
+        },
+        {
+          "text": "Call agent"
+        },
+        {
+          "text": "Agent help"
+        },
+        {
+          "text": "A real agent, please."
+        }
+      ],
+      "description": "Request a human agent."
+    },
+    {
+      "intent": "EnergyGuard_Products",
+      "examples": [
+        {
+          "text": "Product line"
+        },
+        {
+          "text": "What products do you have"
+        },
+        {
+          "text": "Products"
+        },
+        {
+          "text": "What does EnergyGuard do"
+        },
+        {
+          "text": "Applications"
+        },
+        {
+          "text": "Solutions"
+        },
+        {
+          "text": "What products exist"
+        },
+        {
+          "text": "What products do you make"
+        }
+      ],
+      "description": "Discover the products available from EnergyGuard."
+    },
+    {
+      "intent": "Answer_No",
+      "examples": [
+        {
+          "text": "Not that"
+        },
+        {
+          "text": "Not a chance"
+        },
+        {
+          "text": "Nope"
+        },
+        {
+          "text": "No way"
+        },
+        {
+          "text": "No thanks"
+        },
+        {
+          "text": "No"
+        },
+        {
+          "text": "Nevermind"
+        },
+        {
+          "text": "Never"
+        },
+        {
+          "text": "Nah"
+        },
+        {
+          "text": "Something else"
+        },
+        {
+          "text": "Of course not"
+        }
+      ],
+      "description": "User input is no."
+    },
+    {
+      "intent": "General_Jokes",
+      "examples": [
+        {
+          "text": "I'm bored"
+        },
+        {
+          "text": "I want a joke"
+        },
+        {
+          "text": "I am getting bored"
+        },
+        {
+          "text": "Do you like humor?"
+        },
+        {
+          "text": "Do you like fun?"
+        },
+        {
+          "text": "Do you have humor?"
+        },
+        {
+          "text": "Do you have a joke?"
+        },
+        {
+          "text": "Are there jokes?"
+        },
+        {
+          "text": "Can you tell a joke?"
+        },
+        {
+          "text": "Can you tell me a joke?"
+        },
+        {
+          "text": "Another joke"
+        },
+        {
+          "text": "What is your favorite joke?"
+        },
+        {
+          "text": "What do you do for fun?"
+        },
+        {
+          "text": "Tell me something funny"
+        },
+        {
+          "text": "Tell me a joke"
+        },
+        {
+          "text": "Surprise me with something hilarious"
+        },
+        {
+          "text": "One more joke"
+        }
+      ],
+      "description": "Request a joke."
+    },
+    {
+      "intent": "General_Negative_Feedback",
+      "examples": [
+        {
+          "text": "I hate you"
+        },
+        {
+          "text": "You're really frustrating"
+        },
+        {
+          "text": "You do not seem smart"
+        },
+        {
+          "text": "You are very frustrating"
+        },
+        {
+          "text": "You are on my nerves"
+        },
+        {
+          "text": "You are having delusions"
+        },
+        {
+          "text": "Why are you stupid?"
+        },
+        {
+          "text": "Why are you so annoying?"
+        },
+        {
+          "text": "Stupid"
+        },
+        {
+          "text": "Robots are stupid"
+        },
+        {
+          "text": "Robots are boring"
+        },
+        {
+          "text": "Quit annoying me"
+        },
+        {
+          "text": "It is annoying"
+        },
+        {
+          "text": "I hate this!"
+        },
+        {
+          "text": "I do not like you"
+        },
+        {
+          "text": "Hate you"
+        },
+        {
+          "text": "Everyone hates you"
+        },
+        {
+          "text": "Do not like you?"
+        },
+        {
+          "text": "You're too stupid"
+        },
+        {
+          "text": "You're really irritating"
+        }
+      ],
+      "description": "Express unfavorable feedback."
+    },
+    {
+      "intent": "General_Human_or_Bot",
+      "examples": [
+        {
+          "text": "Am I talking to Watson?"
+        },
+        {
+          "text": "Am I chatting with a human?"
+        },
+        {
+          "text": "Tell me, are you a human or no?"
+        },
+        {
+          "text": "Is this a computer?"
+        },
+        {
+          "text": "How can you prove you are a human?"
+        },
+        {
+          "text": "Are you real?"
+        },
+        {
+          "text": "Are you human?"
+        },
+        {
+          "text": "Are you even real?"
+        },
+        {
+          "text": "Are you a robot?"
+        },
+        {
+          "text": "Are you a human or a bot?"
+        },
+        {
+          "text": "Am I talking to a person or am I talking to an AI?"
+        },
+        {
+          "text": "Am I talking to a Bot?"
+        }
+      ],
+      "description": "Ask if speaking to a human or a bot."
+    },
+    {
+      "intent": "EnergyGuard_Help",
+      "examples": [
+        {
+          "text": "I need help"
+        },
+        {
+          "text": "How to"
+        },
+        {
+          "text": "Need assistance"
+        },
+        {
+          "text": "Product help"
+        },
+        {
+          "text": "Help"
+        },
+        {
+          "text": "Help me"
+        },
+        {
+          "text": "Need help"
+        },
+        {
+          "text": "Feature help"
+        },
+        {
+          "text": "How to use"
+        }
+      ],
+      "description": "Get help for EnergyGuard products and services."
+    }
+  ],
+  "entities": [
+    {
+      "entity": "EnergyGuard_TechSupport",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "technical support",
+          "synonyms": [
+            "tech support",
+            "technical",
+            "support",
+            "fix",
+            "problem",
+            "service",
+            "issue",
+            "ticket",
+            "broken",
+            "not working",
+            "installation",
+            "software problem",
+            "network issue",
+            "help",
+            "problems",
+            "issues",
+            "services",
+            "install",
+            "helping",
+            "question",
+            "tickets",
+            "supported",
+            "solve",
+            "trouble",
+            "installing",
+            "resolve",
+            "solved",
+            "matters",
+            "difficulty",
+            "reinstall",
+            "concern",
+            "situation",
+            "concerns",
+            "difficulties",
+            "matter",
+            "troubles",
+            "supports",
+            "aspects",
+            "worry",
+            "rectify",
+            "topics",
+            "reinstalling",
+            "challenges",
+            "installed",
+            "helps",
+            "situations",
+            "solving",
+            "considerations",
+            "questions",
+            "topic",
+            "resolved",
+            "reasons",
+            "obstacles",
+            "worries",
+            "consideration",
+            "constraints"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-date",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "EnergyGuard_AboutUs",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "About us",
+          "synonyms": [
+            "about",
+            "EnergyGuard",
+            "more about you",
+            "what",
+            "know",
+            "tell",
+            "explain",
+            "company",
+            "who is",
+            "what do you do",
+            "what does your company do",
+            "who is EnergyGuard",
+            "all about",
+            "about you",
+            "what can your company do"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "about",
+          "synonyms": [
+            "regarding",
+            "almost",
+            "concerning",
+            "what",
+            "know",
+            "how"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-percentage",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-currency",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-time",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "EnergyGuard_Billing",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "billing",
+          "synonyms": [
+            "billing questions",
+            "questions about my bill",
+            "accounting",
+            "billing error",
+            "billing issues",
+            "issues with payment",
+            "payment issues",
+            "payment",
+            "payment error",
+            "payment processing",
+            "help with my bill",
+            "help with billing",
+            "help with billing error",
+            "billing issue",
+            "billing question",
+            "about my bill",
+            "payments",
+            "repayment",
+            "reimbursement",
+            "invoices",
+            "refund",
+            "repayments",
+            "invoice",
+            "refunds",
+            "reimbursements",
+            "disbursements",
+            "installments",
+            "bills",
+            "rebate",
+            "accounts",
+            "loan",
+            "rebates",
+            "loans",
+            "reimbursed",
+            "account",
+            "repay",
+            "credit",
+            "invoiced",
+            "receipts",
+            "refunded",
+            "debt",
+            "reimburse",
+            "repaid",
+            "invoicing",
+            "paid",
+            "refundable",
+            "expenses",
+            "compensation",
+            "repaying",
+            "fees",
+            "expense",
+            "costs",
+            "fee",
+            "lending",
+            "receipt",
+            "reimbursing",
+            "refunding",
+            "charges",
+            "cost",
+            "charge",
+            "discounts",
+            "incurred",
+            "discount",
+            "installment",
+            "reimburses",
+            "unreimbursed",
+            "charging",
+            "owed",
+            "overpayments",
+            "overpayment",
+            "underpayments",
+            "debited",
+            "overbilling",
+            "monies",
+            "unpaid",
+            "funds",
+            "money",
+            "amount",
+            "incur",
+            "owe",
+            "debiting",
+            "accruing",
+            "discounted",
+            "prices",
+            "pay",
+            "charged",
+            "price",
+            "amounts",
+            "paying",
+            "shortfalls",
+            "underpayment",
+            "shortfall",
+            "owes",
+            "pricing",
+            "deficit",
+            "transactions",
+            "nonpayment",
+            "itemized",
+            "transaction",
+            "overbilled",
+            "payed",
+            "overcharges",
+            "cancellations",
+            "itemizing",
+            "overcharged",
+            "overdrafts",
+            "payoff",
+            "finance",
+            "savings",
+            "paperwork"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "EnergyGuard_Help",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "help",
+          "synonyms": [
+            "enable",
+            "aid",
+            "support",
+            "need",
+            "to",
+            "can"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-number",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "EnergyGuard_ProductList",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Product",
+          "synonyms": [
+            "Products",
+            "Software",
+            "Application",
+            "App",
+            "Service",
+            "applications",
+            "services",
+            "solutions",
+            "apps",
+            "solution",
+            "items",
+            "technologies",
+            "components",
+            "computer",
+            "technology",
+            "component",
+            "elements",
+            "parts",
+            "systems",
+            "capabilities",
+            "system",
+            "devices",
+            "equipment",
+            "integration",
+            "device",
+            "tools",
+            "hardware",
+            "sytem",
+            "apparatus",
+            "tool",
+            "machine"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Services",
+          "synonyms": [
+            "Product",
+            "Products",
+            "Software",
+            "App",
+            "Application",
+            "Applications",
+            "apps",
+            "service",
+            "sofware",
+            "solutions",
+            "technologies",
+            "systems",
+            "devices",
+            "capabilities",
+            "tools",
+            "functionality",
+            "functionalities",
+            "capability",
+            "device",
+            "equipment",
+            "toolkit",
+            "ability",
+            "integration",
+            "platforms",
+            "abilities",
+            "platform",
+            "interface",
+            "toolset"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "language": "en",
+  "metadata": {
+    "api_version": {
+      "major_version": "v1",
+      "minor_version": "2018-09-20"
+    }
+  },
+  "skill_id": "885b41f3-fc8f-446f-88f6-6a4b5f6b2ac5",
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Doctor",
+      "parent": "node_4_1574261288941",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#doctor",
+      "dialog_node": "node_1_1574261754183"
+    },
+    {
+      "type": "standard",
+      "title": "Product Help",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here is our list of products:  1.) EnergyGuard Electricity Monitor, 2.) EnergyGuard Appliance Saver, 3.) EnergyGuard Alert System"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1574273892568",
+      "conditions": "#EnergyGuard_Products",
+      "dialog_node": "node_6_1574274139913",
+      "previous_sibling": "node_7_1574274078048"
+    },
+    {
+      "type": "standard",
+      "title": "Technical Help",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "For technical support, please contact a representative at our 24/7 helpline."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1574273892568",
+      "conditions": "#EnergyGuard_TechSupport",
+      "dialog_node": "node_1_1574274204366",
+      "previous_sibling": "node_6_1574274139913"
+    },
+    {
+      "type": "standard",
+      "title": "Billing Help",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You can see your account and bills online at our website or call our customer service number 24/7 for assistance."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1574273892568",
+      "conditions": "#EnergyGuard_Billing",
+      "dialog_node": "node_7_1574274078048"
+    },
+    {
+      "type": "standard",
+      "title": "Answer No",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "OK.  Can I help you with something else?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1574270738933",
+      "conditions": "#Answer_No",
+      "dialog_node": "node_6_1574270945035",
+      "previous_sibling": "node_2_1574270918618"
+    },
+    {
+      "type": "standard",
+      "title": "Answer Yes",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Great!  Here is our list of products:  1.) EnergyGuard Electricity Monitor, 2.) EnergyGuard Appliance Saver, 3.) EnergyGuard Alert System"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1574270738933",
+      "conditions": "#Answer_Yes",
+      "dialog_node": "node_2_1574270918618"
+    },
+    {
+      "type": "standard",
+      "title": "Sick",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Not feeling well? Say \"Doctor\" to display a list of available Doctors."
+              },
+              {
+                "text": "Here is the number for our direct line to speak with a doctor:  1-800-867-5309"
+              },
+              {
+                "text": "Thank you for your patience... a doctor will call you shortly."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_7_1574260142452",
+      "conditions": "@sick:sick || #doctor",
+      "dialog_node": "node_4_1574261288941"
+    },
+    {
+      "type": "standard",
+      "title": "Billing Answer No",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "OK.  Can you please tell me more about what you need?  I'd like to help."
+              },
+              {
+                "text": "OK.  I'm sorry.  Please tell me how I can help."
+              },
+              {
+                "text": "OK.  I'd like to help.  Can you describe what you need?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1574272110536",
+      "conditions": "#Answer_No",
+      "dialog_node": "node_2_1574273311237",
+      "previous_sibling": "node_5_1574273193215"
+    },
+    {
+      "type": "standard",
+      "title": "Billing Answer Yes",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You can access your account on our website or via our customer support phone line 24/7."
+              },
+              {
+                "text": "You can access your account anytime you want in the Customer Dashboard."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1574272110536",
+      "conditions": "#Answer_Yes",
+      "dialog_node": "node_5_1574273193215"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "It seems like maybe you need a doctor.  Is that right?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1574261754183",
+      "conditions": "@sick:sick",
+      "dialog_node": "response_6_1574281158690",
+      "previous_sibling": "response_8_1574261917311"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sorry.  No doctors are available at the moment."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1574261754183",
+      "conditions": "#doctor",
+      "dialog_node": "response_8_1574261917311"
+    },
+    {
+      "type": "standard",
+      "title": "Help Options",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "It looks like you need some help.  Please tell me how I can help."
+              },
+              {
+                "text": "I see you need help.  Please describe what you need."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#EnergyGuard_Help",
+      "dialog_node": "node_3_1574273892568",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I didn't understand. You can try rephrasing."
+              },
+              {
+                "text": "Can you reword your statement? I'm not understanding."
+              },
+              {
+                "text": "I didn't get your meaning."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_2_1574260206209",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "Account and Billing Info",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I think you have questions about your account or your bill.  Is that correct?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "@EnergyGuard_Billing:billing",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_5_1574272110536",
+      "previous_sibling": "node_3_1574273892568"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Good day to you!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#General_Greetings",
+      "dialog_node": "node_7_1574260142452",
+      "previous_sibling": "node_3_1574270738933"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "OK.  See you later!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#General_Ending",
+      "dialog_node": "node_2_1574260206209",
+      "previous_sibling": "node_7_1574260142452"
+    },
+    {
+      "type": "standard",
+      "title": "Products",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I think I understand that you would like a list of all our current products.  Is that right?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "@EnergyGuard_ProductList:Product || @EnergyGuard_ProductList:Services",
+      "dialog_node": "node_3_1574270738933",
+      "previous_sibling": "node_5_1574272110536"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Welcome to the EnergyGuard Customer Chat Portal!  You can ask me questions about products/services, account/billing info, or find out more about us.  How can we help you today?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "workspace_id": "885b41f3-fc8f-446f-88f6-6a4b5f6b2ac5",
+  "counterexamples": [],
+  "system_settings": {
+    "tooling": {
+      "store_generic_responses": true
+    },
+    "off_topic": {
+      "enabled": true
+    },
+    "disambiguation": {
+      "prompt": "Did you mean:",
+      "enabled": true,
+      "randomize": true,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "None of the above"
+    },
+    "human_agent_assist": {
+      "prompt": "Did you mean:"
+    },
+    "spelling_auto_correct": true
+  },
+  "learning_opt_out": false,
+  "status": "Available"
+}
